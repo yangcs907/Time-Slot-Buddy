@@ -109,9 +109,3 @@ export function setNumber4 (text) {
     number4: text
   }
 };
-// export function setName (text, timeSlot) {
-//   return {
-//     type: "SET_NAME",
-//     timeSlot: text
-//   }
-// };
