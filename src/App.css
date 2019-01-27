@@ -1,0 +1,104 @@
+h1 {
+  margin: 0px;
+}
+.headerDiv {
+  text-align: left;
+  height: 200px;
+  background-image: url("./images/background.jpg");
+  background-size: 100%;
+  background-position: center;
+}
+.title {
+  font-weight: bold;
+  font-family: "Avenir", sans-serif;
+  color: rgba(251,243,234,0.9);
+  padding: 50px;
+}
+.timeSlotDesc {
+  font-weight: bold;
+  padding: 15px;
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+}
+.timeSlots {
+  padding-left: 250px;
+  padding-right: 250px;
+  font-weight: bold;
+  font-family: "Avenir", sans-serif;
+  text-align: center;
+}
+.slot {
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 5px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: 10px;
+  margin-left: 0px;
+  margin-right: 0px;
+  cursor: pointer;
+}
+.slot:hover {
+  background-color: rgba(255,0,0,0.8);
+}
+.bookSlot {
+  display: none;
+}
+.bookButton {
+  width: 75px;
+  border-style: solid;
+  cursor:pointer;
+}
+.bookButton:hover {
+  color:  rgba(255,0,0,0.8);
+}
+::placeholder {
+  color: rgba(0,0,0,0.5);
+}
+.closeButton {
+  cursor:pointer;
+}
+.closeButton:hover {
+  color: rgba(255,0,0,0.8);
+}
+.footer {
+  margin-top: 50px;
+  border-top-style: solid;
+  border-width: 1px;
+  height: 30px;
+  font-family: "Avenir", sans-serif;
+  padding-left: 20px;
+  padding-top: 8px;
+}
+.footer p {
+  font-size: 14px;
+  margin: 0px;
+}
+@media screen and (max-width: 500px) {
+  .headerDiv {
+    text-align: right;
+    background-size: 200%;
+  }
+}
+@media screen and (max-width: 850px) {
+  .timeSlots {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .title h1 {
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .timeSlotDesc h2 {
+    font-size: 35px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 500px) {
+  .timeSlots {
+    padding: 30px;
+  }
+}
