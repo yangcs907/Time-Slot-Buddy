@@ -17,30 +17,6 @@ class App extends Component {
     let box = document.getElementById(id);
     box.style.display = "none";
   };
-  dispatchInfo9 = (name, number, id) => {
-    let namefield = document.getElementById(name);
-    let numberfield = document.getElementById(number);
-    let slot = document.getElementById(id);
-    let nameInput = namefield.value;
-    let numberInput = numberfield.value;
-    store.dispatch(setName9(nameInput));
-    store.dispatch(setNumber9(numberInput));
-    slot.style.backgroundColor = "rgba(255,0,0,0.8)";
-  };
-  dispatchInfo10 = (name, number, id) => {
-    let namefield = document.getElementById(name);
-    let numberfield = document.getElementById(number);
-    let slot = document.getElementById(id);
-    let nameInput = namefield.value;
-    let numberInput = numberfield.value;
-    store.dispatch(setName10(nameInput));
-    store.dispatch(setNumber10(numberInput));
-    slot.style.backgroundColor = "rgba(255,0,0,0.8)";
-  };
-  testField = () => {
-    console.log(store.getState().name10);
-    console.log(store.getState().number10);
-  }
   dispatchInfo = (name, number, id) => {
     let namefield = document.getElementById(name);
     let numberfield = document.getElementById(number);
