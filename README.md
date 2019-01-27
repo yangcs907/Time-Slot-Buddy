@@ -5,7 +5,7 @@
 - react-dom
 - react-scripts
 - redux
-#Instructions
+# Instructions
 - Simply run an npm install in the root directory to obtain node_modules
 - Run npm start to run application locally
 - Enjoy!
